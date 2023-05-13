@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
+    <title>Cafe Scnz</title>
+</head>
+<body>
+    <!-- =====================================NAVBAR=============================================== -->
+ <nav class="navbar  fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color: rgb(245, 204, 154);">Cafe Scnz</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" >CS</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Branches
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Shah Faisal Main Branch</a></li>
+              <li><a class="dropdown-item" href="#">Malir Branch</a></li>
+              <li><a class="dropdown-item" href="#">Gulshan Branch</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav> 
+<!-- ==============================================CAROUSEL=============================================== -->
+<div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/scaleup.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/scaleup(2).jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/scaleup(3).jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <br>
+
+  <!-- =======================================================CARDS====================================================== -->
+<center><h2 style="color: rgb(223, 144, 41);"><i>Special <span style="color: rgb(173, 101, 12);">M</span>enu </i></h2></center><br>
+  <div class="card-group">
+    <div class="card">
+      <img src="img/C1.jpeg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"><center><i>Customer Choice</i></center></h5>
+      </div>
+      <a href="#" class="btn btn-primary">Order now</a>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/C8.jpeg" class="card-img-top" >
+      <div class="card-body">
+        <h5 class="card-title"><center><i>Special Latte</i></center></h5>
+      </div>
+      <a href="#" class="btn btn-primary">Order now</a>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 1 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/C3.jpeg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"><center><i>Iconic</i></center></h5>
+      </div>
+      <a href="#" class="btn btn-primary">Order now</a>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last update 8 months ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-group">
+    <div class="card">
+      <img src="img/C4.jpeg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"><center><i>Iconic</i></center></h5>
+      </div>
+      <a href="#" class="btn btn-primary">Order now</a>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 8 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/C5.jpeg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"><center><i>Soon</i></center></h5>
+      </div>
+      <a href="#" class="btn btn-primary">Order now</a>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated a month ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="img/C6.jpeg" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"><center><i>New One</i></center></h5>
+      </div>
+      <a href="#" class="btn btn-primary">Order now</a>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 18 days ago</small>
+      </div>
+    </div>
+  </div><br>
+  <!-- ===================================================CHEFS================================================== -->
+<center><h2 class="experts" style="color: rgb(223, 144, 41);"><i><span style="color: rgb(173, 101, 12);">E</span>xperts</i></h2></center><br>
+<center><i><h5>Shah Faisal Branch Experts</h5></i></center>
+<div class="card-group">
+  <div class="card">
+    <img src="img/e4.jpeg" class="card-img-top">
+    <div class="card-body">
+      <p class="card-title"><b>Khalil and Saifullah</b></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/E1.jpeg" class="card-img-top">
+    <div class="card-body">
+      <p class="card-title"><b>Mumtaz</b></p> 
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/E3.jpeg" class="card-img-top">
+    <div class="card-body">
+      <p class="card-title"><b>Adil and Rasheed</b></p>
+      </div>
+  </div>
+</div>
+<br>
+<!-- =============================================REVIEWS================================================================ -->
+<center><h2 class="experts" style="color: rgb(223, 144, 41);"><i><span style="color: rgb(173, 101, 12);">R</span>eviews</i></h2></center><br>
+
+<div class="card-group">
+  <div class="card">
+    <img src="img/D1.jpeg" class="card-img-top">
+    <div class="card-body">
+      <p class="card-title"><b>yourdad@gmail.com</b></p>
+      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat illum sequi deleniti fuga, corporis laudantium corrupti mollitia quibusdam itaque assumenda nisi voluptates fugiat odit dignissimos a maxime! Nesciunt, quos ad.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/D2.jpeg" class="card-img-top">
+    <div class="card-body">
+      <p class="card-title"><b>arin08@gmail.com</b></p>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque a repudiandae, ipsa ad necessitatibus voluptates dolorem labore pariatur unde obcaecati! Facilis odio pariatur eos beatae exercitationem minus, quo nemo.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/D3.jpeg" class="card-img-top">
+    <div class="card-body">
+      <p class="card-title"><b>marie567@yahoo.com</b></p>
+      <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae veniam distinctio optio nemo, nesciunt architecto quae inventore temporibus repellendus ab pariatur id nobis laborum. Iure debitis provident dolores. Blanditiis, corporis.</p>
+</div>
+  </div>
+</div>
+<br>
+<!-- ===============================================FOOTER================================================ -->
+<center>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-twitter"></a>
+</center>
+</body>
+</html>
